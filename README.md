@@ -28,3 +28,6 @@ Ensure you have the following installed:
    ```bash
    npm run dev
 
+
+## or simply open project via CodeSandBox - 
+https://codesandbox.io/p/github/vladimirfed/plct-coding-challenge/main?import=true
