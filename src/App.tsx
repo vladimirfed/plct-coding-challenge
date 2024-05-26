@@ -36,11 +36,9 @@ const App: React.FC = () => {
   };
 
   return (
-    <Container>
-      <div className="app-container">
+    <Container sx={{ display: 'flex', justifyContent: 'space-evenly' }}>
         <EmployeeForm onSave={handleSave} onUpdate={handleUpdate} employee={selectedEmployee} />
         <EmployeeList employees={employees} onEdit={handleEdit} onDelete={handleDelete} />
-      </div>
     </Container>
   );
 };

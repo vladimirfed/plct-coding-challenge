@@ -43,7 +43,7 @@ const EmployeeForm: React.FC<EmployeeFormProps> = ({ onSave, onUpdate, employee 
   };
 
   const handleEditDependent = (dep: Dependent) => {
-    setDependents(dependents.filter((dependent) => dependent.id !== dep.id));
+    handleDeleteDependent(dep.id);
     setDependentName(dep.name);
   };
 
