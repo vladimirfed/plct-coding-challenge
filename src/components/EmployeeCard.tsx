@@ -1,6 +1,6 @@
 import React from "react";
 import { Employee } from "../types";
-import BenefitCalculator from "./BenefitCalculator";
+import BenefitCalculator from "./BenefitCosts";
 import { Typography, Divider, List, ListItem, ListItemText, Stack, Card, IconButton } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";

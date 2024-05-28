@@ -7,13 +7,13 @@ interface BenefitCalculatorProps {
 }
 
 const BenefitCalculator: React.FC<BenefitCalculatorProps> = ({ employee }) => {
-  const { employeeCost, dependentsCost: dependentCost, totalCost } = calculateBenefitCost(employee);
+  const { employeeCost, dependentsCost, totalCost } = calculateBenefitCost(employee);
 
   return (
     <div>
       <h4>Benefit Costs</h4>
       <p>Employee Cost: ${employeeCost.toFixed(2)} per paycheck</p>
-      <p>Dependent Cost: ${dependentCost.toFixed(2)} per paycheck</p>
+      <p>Dependents Cost: ${dependentsCost.toFixed(2)} per paycheck</p>
       <p>Total Cost: ${totalCost.toFixed(2)} per paycheck</p>
     </div>
   );
